@@ -1,3 +1,14 @@
+error id: file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java:_empty_/KafkaTemplate#
+file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java
+empty definition using pc, found symbol in pc: _empty_/KafkaTemplate#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 4745
+uri: file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java
+text:
+```scala
 package com.example.GANTone;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -25,7 +36,7 @@ public class KafkaConfig {
     private String bootstrapServers;
 
     @Bean
-    public ProducerFactory<String, String> producerFactory() {
+    public ProducerFactory<String, Object> producerFactory() {
         Map<String, Object> configProps = new HashMap<>();
         configProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
         configProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
@@ -87,7 +98,13 @@ public class KafkaConfig {
     }
 
     @Bean
-    public KafkaTemplate<String, String> kafkaTemplate() {
-        return new KafkaTemplate<>(producerFactory());
+    public KafkaTemplate<String, Object> kafkaTemplate() {
+        return new KafkaTemplate@@<>(producerFactory());
     }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/KafkaTemplate#
