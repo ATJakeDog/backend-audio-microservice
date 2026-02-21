@@ -214,3 +214,88 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
 	at java.lang.Thread.run(Thread.java:1447)
 
+2026.02.21 21:45:11 INFO  Started: Metals version 1.6.5 in folders 'C:\GANTone\backend' for client Visual Studio Code 1.109.5.
+2026.02.21 21:45:11 INFO  Memory monitor started
+2026.02.21 21:45:12 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.21 21:45:12 INFO  no build target found for C:\GANTone\backend\src\test\java\com\example\GANTone\GanToneApplicationTests.java. Using fallback presentation compiler.
+2026.02.21 21:45:20 INFO  no build target found for C:\GANTone\backend\src\test\java\com\example\GANTone\GanToneApplicationTests.java. Using fallback presentation compiler.
+2026.02.21 21:45:47 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:45:47 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+февр. 21, 2026 9:45:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2026.02.21 21:45:47 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:45:51 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:45:51 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:45:52 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:03 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:03 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:09 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:10 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:10 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:10 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+февр. 21, 2026 9:46:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+2026.02.21 21:46:10 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:14 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:14 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:14 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:15 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:15 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:15 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:16 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:16 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:16 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:16 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:16 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:16 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:17 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:17 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:17 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:18 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:17 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:17 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:18 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:19 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:46:20 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java
+2026.02.21 21:46:20 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:57:20 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java
+2026.02.21 21:57:20 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:57:20 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:57:20 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:57:30 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:57:32 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 21:59:56 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+февр. 21, 2026 10:00:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+февр. 21, 2026 10:07:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.21 22:59:05 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 22:59:05 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java
+2026.02.21 22:59:05 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 22:59:05 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+февр. 21, 2026 11:04:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+февр. 21, 2026 11:04:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.21 23:11:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 23:11:11 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java
+2026.02.21 23:11:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 23:11:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
