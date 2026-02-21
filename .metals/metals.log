@@ -1,0 +1,216 @@
+2026.02.21 00:28:55 INFO  Started: Metals version 1.6.5 in folders 'C:\GANTone\backend' for client Visual Studio Code 1.109.4.
+2026.02.21 00:28:55 INFO  Memory monitor started
+2026.02.21 00:28:58 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.21 00:28:58 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+февр. 21, 2026 12:29:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.02.21 00:29:00 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:00 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:26 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:26 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:28 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:29 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:29 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:30 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:30 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:31 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:31 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:31 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:33 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:33 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:33 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:33 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:34 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:34 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:34 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:34 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:34 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+февр. 21, 2026 12:29:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+2026.02.21 00:29:34 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:34 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:35 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:36 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:35 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:37 INFO  no build target found for c:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:37 INFO  no build target found for c:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+февр. 21, 2026 12:29:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.TextDocumentService.definition(org.eclipse.lsp4j.TextDocumentPositionParams)
+java.lang.IllegalStateException: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.TextDocumentService.definition(org.eclipse.lsp4j.TextDocumentPositionParams)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:73)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: java.nio.file.NoSuchFileException: c:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2970)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:513)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:372)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$6(DefinitionProvider.scala:291)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:291)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:276)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definitionOrReferences$1(MetalsLspService.scala:1732)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLspService.definitionOrReferences(MetalsLspService.scala:1728)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definition$1(MetalsLspService.scala:961)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.definition(MetalsLspService.scala:960)
+	at scala.meta.internal.metals.WorkspaceLspService.definition(WorkspaceLspService.scala:511)
+	at scala.meta.metals.lsp.DelegatingScalaService.definition(DelegatingScalaService.scala:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	... 11 more
+
+февр. 21, 2026 12:29:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didSave",
+  "params": {
+    "textDocument": {
+      "uri": "file:///c%3A/GANTone/backend/src/main/java/com/example/GANTone/GanToneApplication.java"
+    }
+  }
+}
+java.lang.IllegalStateException: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.TextDocumentService.didSave(org.eclipse.lsp4j.DidSaveTextDocumentParams)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:73)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: java.nio.file.NoSuchFileException: c:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:231)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2970)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$1(MetalsLspService.scala:930)
+	at scala.collection.immutable.List.map(List.scala:236)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at scala.meta.internal.metals.MetalsLspService.onChange(MetalsLspService.scala:929)
+	at scala.meta.internal.metals.ProjectMetalsLspService.onChange(ProjectMetalsLspService.scala:331)
+	at scala.meta.internal.metals.MetalsLspService.didSave(MetalsLspService.scala:882)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didSave(ProjectMetalsLspService.scala:320)
+	at scala.meta.internal.metals.WorkspaceLspService.didSave(WorkspaceLspService.scala:506)
+	at scala.meta.metals.lsp.DelegatingScalaService.didSave(DelegatingScalaService.scala:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	... 11 more
+
+2026.02.21 00:29:37 INFO  no build target found for c:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:37 INFO  no build target found for c:\GANTone\backend\src\main\java\com\example\GANTone\GanToneApplication.java. Using fallback presentation compiler.
+февр. 21, 2026 12:29:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+2026.02.21 00:29:37 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+февр. 21, 2026 12:29:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+2026.02.21 00:29:38 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:37 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:37 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+февр. 21, 2026 12:29:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 56
+2026.02.21 00:29:47 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:53 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:54 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:54 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:57 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:57 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:58 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:58 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:59 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:59 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:59 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:59 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:00 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:29:59 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:00 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:00 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:00 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:00 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:00 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:00 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:00 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:00 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:01 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:02 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:02 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:02 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:03 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+февр. 21, 2026 12:30:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+2026.02.21 00:30:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:04 INFO  Created report: Optional[file:///C:/GANTone/backend/src/main/java/com/example/GANTone/AiBackendApplication.java]
+2026.02.21 00:30:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-21\r_empty-definition_00-30-04-084.md")
+2026.02.21 00:30:08 INFO  no build target found for c:\GANTone\backend\src\main\java\com\example\GANTone\AiBackendApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:10 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:10 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:10 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:10 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:12 INFO  Created report: Optional[file:///C:/GANTone/backend/src/main/java/com/example/GANTone/GANToneApplication.java]
+2026.02.21 00:30:12 INFO  empty definition using pc, found symbol in pc: _empty_/AiBackendApplication# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-21\r_empty-definition_00-30-12-420.md")
+2026.02.21 00:30:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:13 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:13 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java
+2026.02.21 00:30:13 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:13 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:13 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.21 00:30:13 INFO  Created report: Optional[file:///C:/GANTone/backend/src/main/java/com/example/GANTone/GANToneApplication.java]
+2026.02.21 00:30:13 INFO  empty definition using pc, found symbol in pc: _empty_/GenerationType#IDENTITY# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-21\r_empty-definition_00-30-14-333.md")
+2026.02.21 02:14:04 INFO  Shutting down server
+2026.02.21 02:14:04 INFO  Memory monitor stopped
+2026.02.21 02:14:04 INFO  shutting down Metals
+2026.02.21 02:14:04 INFO  Exiting server
+2026.02.21 02:14:04 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.lang.Thread.run(Thread.java:1447)
+
