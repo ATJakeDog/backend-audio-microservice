@@ -1,3 +1,14 @@
+error id: file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java:java/lang/RuntimeException#
+file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java
+empty definition using pc, found symbol in pc: java/lang/RuntimeException#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 4491
+uri: file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java
+text:
+```scala
 package com.example.GANTone;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -34,7 +45,7 @@ public class KafkaConfig {
         // Базовый протокол
         configProps.put("security.protocol", "SSL");
         
-        // Trust Store (CA сертификат текстом)
+        // 1. Trust Store (Твой CA сертификат текстом)
         configProps.put("ssl.truststore.type", "PEM");
         configProps.put("ssl.truststore.certificates", 
             "-----BEGIN CERTIFICATE-----\n" +
@@ -64,7 +75,7 @@ public class KafkaConfig {
             "-----END CERTIFICATE-----"
         );
 
-        // Key Store (Магия с временным файлом для p12)
+        // 2. Key Store (Магия с временным файлом для p12)
         try {
             Path tempKeystore = Files.createTempFile("keystore", ".p12");
             try (InputStream is = new ClassPathResource("keystore.p12").getInputStream()) {
@@ -76,11 +87,11 @@ public class KafkaConfig {
             configProps.put("ssl.keystore.password", "GANTonePass");
             configProps.put("ssl.key.password", "GANTonePass");
             
-            // Удаляется файл при выходе приложения
+            // Удаляем файл при выходе приложения
             tempKeystore.toFile().deleteOnExit();
             
         } catch (Exception e) {
-            throw new RuntimeException("Failed to load keystore.p12 from resources", e);
+            throw new Run@@timeException("Failed to load keystore.p12 from resources", e);
         }
 
         return new DefaultKafkaProducerFactory<>(configProps);
@@ -91,3 +102,9 @@ public class KafkaConfig {
         return new KafkaTemplate<>(producerFactory());
     }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: java/lang/RuntimeException#

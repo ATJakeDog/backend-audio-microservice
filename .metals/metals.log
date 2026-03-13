@@ -299,3 +299,278 @@ INFO: Unsupported notification method: $/setTrace
 2026.02.21 23:11:11 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java
 2026.02.21 23:11:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
 2026.02.21 23:11:11 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 02:38:51 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:38:52 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:38:52 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:38:53 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:38:58 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:38:59 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:38:59 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:38:59 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:01 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:01 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:01 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:01 WARN  Running javac-semanticdb failed for file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java. Output:
+
+2026.02.22 02:39:01 INFO  Created report: Optional[file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java]
+2026.02.22 02:39:01 INFO  QDox parse error in file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_qdox-error_02-39-02-664.md")
+2026.02.22 02:39:02 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:02 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java
+2026.02.22 02:39:02 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:02 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:19 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:39:19 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java
+2026.02.22 02:39:19 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:50 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:50 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:50 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 2:48:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 232
+2026.02.22 02:48:51 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 2:48:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 233
+2026.02.22 02:48:51 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:51 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:51 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:51 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:52 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:53 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:53 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:52 INFO  Created report: Optional[file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java]
+2026.02.22 02:48:52 INFO  empty definition using pc, found symbol in pc: java/lang/String# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_02-48-53-304.md")
+2026.02.22 02:48:53 INFO  Created report: Optional[file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java]
+2026.02.22 02:48:53 INFO  empty definition using pc, found symbol in pc: _empty_/KafkaTemplate# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_02-48-53-446.md")
+2026.02.22 02:48:53 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:53 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:53 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:53 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 2:48:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 244
+2026.02.22 02:48:55 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:55 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:55 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:55 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:55 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:55 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:48:55 INFO  empty definition using pc, found symbol in pc: java/lang/Object# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_02-48-55-852.md")
+2026.02.22 02:48:55 INFO  Created report: Optional[file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java]
+2026.02.22 02:48:55 INFO  empty definition using pc, found symbol in pc: java/lang/Object# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_02-48-55-852.md")
+2026.02.22 02:48:59 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 2:49:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 260
+2026.02.22 02:49:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:23 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:23 INFO  empty definition using pc, found symbol in pc: java/lang/String# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_02-48-53-304.md")
+2026.02.22 02:49:23 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:23 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:23 INFO  empty definition using pc, found symbol in pc: java/lang/Object# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_02-48-55-852.md")
+2026.02.22 02:49:23 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:23 INFO  empty definition using pc, found symbol in pc: java/lang/Object# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_02-48-55-852.md")
+февр. 22, 2026 2:49:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 269
+2026.02.22 02:49:23 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 2:49:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 270
+2026.02.22 02:49:23 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:24 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:24 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:24 INFO  empty definition using pc, found symbol in pc: java/lang/Object# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_02-48-55-852.md")
+2026.02.22 02:49:24 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:24 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:24 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 2:49:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 281
+2026.02.22 02:49:26 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:26 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 2:49:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 287
+2026.02.22 02:49:28 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:28 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:28 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 2:49:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 296
+2026.02.22 02:49:28 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:29 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:30 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:30 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:30 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:30 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:29 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:29 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:30 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:30 INFO  empty definition using pc, found symbol in pc: java/lang/Object# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_02-48-55-852.md")
+2026.02.22 02:49:31 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:31 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 02:49:32 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java
+2026.02.22 02:49:32 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 03:36:05 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 03:36:08 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java
+2026.02.22 03:36:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 03:36:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 03:36:09 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 04:06:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:06:06 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java
+2026.02.22 04:06:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 4:06:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 360
+2026.02.22 04:06:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 4:06:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 361
+февр. 22, 2026 4:06:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 364
+2026.02.22 04:06:07 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java
+2026.02.22 04:06:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 04:06:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 04:06:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 04:06:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 04:06:27 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 04:06:28 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 04:06:45 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java
+2026.02.22 04:06:45 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:06:45 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:06:45 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:06:58 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:06:58 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:06:58 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:06:58 INFO  Created report: Optional[file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java]
+2026.02.22 04:06:58 INFO  empty definition using pc, found symbol in pc: java/lang/Exception# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_04-06-58-694.md")
+февр. 22, 2026 4:06:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 401
+2026.02.22 04:06:58 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:06:58 INFO  Created report: Optional[file:///C:/GANTone/backend/src/main/java/com/example/GANTone/KafkaConfig.java]
+2026.02.22 04:06:58 INFO  empty definition using pc, found symbol in pc: java/lang/RuntimeException# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_04-06-58-887.md")
+2026.02.22 04:06:58 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:02 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:02 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:03 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 4:07:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 423
+2026.02.22 04:07:03 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:03 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:03 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:04 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:05 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:06 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:07 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:08 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:10 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:10 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:10 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:12 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:13 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:13 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:17 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:17 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:17 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:17 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 4:07:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 488
+2026.02.22 04:07:17 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+февр. 22, 2026 4:07:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 489
+2026.02.22 04:07:17 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:18 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:18 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:18 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:18 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:19 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:19 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:19 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:20 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:19 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:20 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:20 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:20 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:21 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:21 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:21 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:22 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:24 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:27 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:27 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:29 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:29 INFO  empty definition using pc, found symbol in pc: java/lang/String# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_02-48-53-304.md")
+2026.02.22 04:07:39 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:39 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:39 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 04:07:39 INFO  empty definition using pc, found symbol in pc: java/lang/String# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_02-48-53-304.md")
+2026.02.22 04:07:39 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java
+2026.02.22 04:07:39 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 05:17:48 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 05:17:48 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java
+2026.02.22 05:17:48 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 05:17:49 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 05:20:36 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 05:20:36 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 05:20:37 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\GANToneApplication.java. Using fallback presentation compiler.
+2026.02.22 05:20:37 INFO  Created report: Optional[file:///C:/GANTone/backend/src/main/java/com/example/GANTone/GANToneApplication.java]
+2026.02.22 05:20:37 INFO  empty definition using pc, found symbol in pc: _empty_/GeneratedValue#strategy# (full report at: "C:\GANTone\backend\.metals\.reports\metals-full\2026-02-22\r_empty-definition_05-20-37-347.md")
+2026.02.22 05:33:34 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 05:33:34 WARN  no build target for: C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java
+2026.02.22 05:33:34 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 05:33:36 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 05:33:36 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 05:33:37 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 05:33:37 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 05:33:38 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 05:33:38 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 05:33:37 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 05:33:39 INFO  no build target found for C:\GANTone\backend\src\main\java\com\example\GANTone\KafkaConfig.java. Using fallback presentation compiler.
+2026.02.22 05:55:24 INFO  Shutting down server
+2026.02.22 05:55:24 INFO  Memory monitor stopped
+2026.02.22 05:55:24 INFO  shutting down Metals
+2026.02.22 05:55:24 INFO  Exiting server
+2026.02.22 05:55:24 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.lang.Thread.run(Thread.java:1447)
+
