@@ -65,45 +65,44 @@ class TaskController {
     }
 
     @PostMapping(value = "/start", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    public String startTask(@RequestParam("modelName") String modelName,
-                            @RequestParam("file") MultipartFile file) {
-        // Создаем запись сразу, не блокируя поток ожиданием загрузки
-        Task task = new Task(); 
+    public String startTask(@RequestParam("modelName") String modelName, 
+                        @RequestParam("file") MultipartFile file) throws Exception {
+    
+        Task task = new Task();
         task.modelName = modelName;
         task.status = "UPLOADING";
-        task.changesMetadata = "[]"; //дефолтное валидное JSON-значение
+        task.changesMetadata = "[]";
         final Task savedTask = repository.save(task);
 
-        // Запускаем асинхронный процесс выгрузки
+        // 1. Считываем байты сразу, пока запрос жив!
+        byte[] fileBytes = file.getBytes();
+        String originalFilename = file.getOriginalFilename();
+        String contentType = file.getContentType();
+
+        // 2. Передаем в поток данные, а не ссылку на файл
         CompletableFuture.runAsync(() -> {
             try {
-                String fileName = UUID.randomUUID().toString()
-                        + "_" + file.getOriginalFilename();
-                String storageUrl = supabaseUrl
-                        + "/storage/v1/object/audio-files/" + fileName;
+                String fileName = UUID.randomUUID().toString() + "_" + originalFilename;
+                String storageUrl = supabaseUrl + "/storage/v1/object/audio-files/" + fileName;
 
                 RestTemplate restTemplate = new RestTemplate();
                 HttpHeaders headers = new HttpHeaders();
                 headers.set("Authorization", "Bearer " + supabaseKey);
-                headers.setContentType(
-                        MediaType.valueOf(file.getContentType()));
+                headers.setContentType(MediaType.valueOf(contentType));
 
-                HttpEntity<byte[]> requestEntity =
-                        new HttpEntity<>(file.getBytes(), headers);
-                restTemplate.exchange(storageUrl, HttpMethod.POST,
-                        requestEntity, String.class);
+                // Используем уже считанные байты
+                HttpEntity<byte[]> requestEntity = new HttpEntity<>(fileBytes, headers);
+                restTemplate.exchange(storageUrl, HttpMethod.POST, requestEntity, String.class);
 
-                // Обновляем БД после успешной загрузки
                 savedTask.originalAudioUrl = storageUrl;
                 savedTask.status = "PENDING";
                 repository.save(savedTask);
 
-                // Только теперь отправляем в Kafka
                 String message = savedTask.id + ":" + modelName;
                 kafkaTemplate.send("ai-tasks", message);
 
             } catch (Exception e) {
-                e.printStackTrace();
+                e.printStackTrace(); 
                 savedTask.status = "FAILED";
                 repository.save(savedTask);
             }
