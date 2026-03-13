@@ -103,6 +103,7 @@ class TaskController {
                 kafkaTemplate.send("ai-tasks", message);
 
             } catch (Exception e) {
+                e.printStackTrace();
                 savedTask.status = "FAILED";
                 repository.save(savedTask);
             }
