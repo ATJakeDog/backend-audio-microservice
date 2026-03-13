@@ -14,6 +14,18 @@ import org.springframework.beans.factory.annotation.Value;
 import java.util.concurrent.CompletableFuture;
 import java.util.UUID;
 
+@Converter(autoApply = true)
+class JsonConverter implements AttributeConverter<String, String> {
+    @Override
+    public String convertToDatabaseColumn(String attribute) {
+        return attribute; // Просто возвращаем строку
+    }
+    @Override
+    public String convertToEntityAttribute(String dbData) {
+        return dbData; // Просто возвращаем строку
+    }
+}
+
 @SpringBootApplication
 @EnableAsync
 public class GANToneApplication {
@@ -30,7 +42,7 @@ class Task {
     public String originalAudioUrl;
     public String processedAudioUrl;
     
-    @Column(columnDefinition = "jsonb")
+    @Column(name = "changes_metadata", columnDefinition = "jsonb")
     public String changesMetadata;
 }
 
