@@ -12,6 +12,8 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.http.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.client.RestTemplate;
@@ -33,6 +35,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @SpringBootApplication
 @EnableAsync
+@EnableScheduling
 public class GANToneApplication {
     public static void main(String[] args) {
         SpringApplication.run(GANToneApplication.class, args);
@@ -89,7 +92,9 @@ class Task {
     }
 }
 
-interface TaskRepository extends JpaRepository<Task, Long> {}
+interface TaskRepository extends JpaRepository<Task, Long> {
+    List<Task> findByStatusAndUpdatedAtBefore(String status, Instant updatedAt);
+}
 
 @RestController
 @RequestMapping("/api/tasks")
@@ -98,6 +103,7 @@ class TaskController {
     private static final String TOPIC_INCOMING_PREFIX = "tasks.incoming.";
     private static final String TOPIC_EVENTS = "tasks.events";
     private static final String STATUS_PENDING = "PENDING";
+    private static final String STATUS_PROCESSING = "PROCESSING";
     private static final String STATUS_FAILED = "FAILED";
     private static final String STATUS_UPLOADING = "UPLOADING";
     private static final Set<String> SUPPORTED_MODELS = Set.of("whisper", "gan", "denoise");
@@ -112,6 +118,15 @@ class TaskController {
 
     @Value("${supabase.key}")
     private String supabaseKey;
+
+    @Value("${tasks.pending-retry-timeout-seconds:120}")
+    private Long pendingRetryTimeoutSeconds;
+
+    @Value("${tasks.pending-retry-max-attempts:5}")
+    private Integer pendingRetryMaxAttempts;
+
+    @Value("${tasks.pending-retry-enabled:true}")
+    private Boolean pendingRetryEnabled;
 
     public TaskController(TaskRepository repository,
                           KafkaTemplate<String, String> kafkaTemplate,
@@ -133,6 +148,64 @@ class TaskController {
         return repository.findById(id)
                 .map(task -> ResponseEntity.ok(toResponse(task)))
                 .orElseGet(() -> ResponseEntity.notFound().build());
+    }
+
+    @Scheduled(fixedDelayString = "${tasks.pending-retry-scan-ms:15000}")
+    public void retryStalePendingTasks() {
+        if (!Boolean.TRUE.equals(pendingRetryEnabled)) {
+            return;
+        }
+
+        Instant cutoff = Instant.now().minusSeconds(pendingRetryTimeoutSeconds);
+        List<Task> stalePendingTasks = repository.findByStatusAndUpdatedAtBefore(STATUS_PENDING, cutoff);
+
+        for (Task task : stalePendingTasks) {
+            int retries = task.retryCount == null ? 0 : task.retryCount;
+
+            if (retries >= pendingRetryMaxAttempts) {
+                Task failed = updateTask(task.id, taskToUpdate -> {
+                    taskToUpdate.status = STATUS_FAILED;
+                    taskToUpdate.progress = 100;
+                });
+
+                sendKafkaEvent(TOPIC_EVENTS, new TaskEvent(
+                        "TASK_PROGRESS",
+                        failed.id,
+                        failed.modelName,
+                        failed.correlationId,
+                        failed.progress,
+                        failed.status,
+                        failed.retryCount
+                ));
+                continue;
+            }
+
+            Task retried = updateTask(task.id, taskToUpdate -> {
+                taskToUpdate.retryCount = retries + 1;
+                taskToUpdate.status = STATUS_PENDING;
+                taskToUpdate.progress = 20;
+            });
+
+            sendKafkaEvent(incomingTopicForModel(retried.modelName), new TaskEvent(
+                    "TASK_PENDING_RETRY",
+                    retried.id,
+                    retried.modelName,
+                    retried.correlationId,
+                    retried.progress,
+                    retried.status,
+                    retried.retryCount
+            ));
+
+            sendKafkaEvent(TOPIC_EVENTS, new TaskEvent(
+                    "TASK_PROGRESS",
+                    retried.id,
+                    retried.modelName,
+                    retried.correlationId,
+                    retried.progress,
+                    retried.status,
+                    retried.retryCount
+            ));
+        }
     }
 
     @GetMapping(value = "/stream", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
@@ -356,6 +429,12 @@ class TaskController {
                     "Task " + updatedTask.id + " sent for re-drive."
                 ));
                 }
+
+    @PostMapping("/retry-pending")
+    public ResponseEntity<String> retryPendingNow() {
+        retryStalePendingTasks();
+        return ResponseEntity.accepted().body("Triggered stale PENDING retry scan.");
+    }
 
     private Task updateTask(Long taskId, Consumer<Task> updater) {
         Task task = repository.findById(taskId)
