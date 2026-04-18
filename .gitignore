@@ -31,3 +31,14 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Local caches ###
+.metals/
+.bloop/
+.scala-build/
+
+### Audio artifacts ###
+*.wav
+*.flac
+*.mp3
+*.m4a

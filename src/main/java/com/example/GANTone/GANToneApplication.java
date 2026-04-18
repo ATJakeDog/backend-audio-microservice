@@ -22,7 +22,9 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Locale;
 import java.util.Optional;
+import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.UUID;
@@ -59,6 +61,7 @@ class Task {
     public String modelName;
     public String status;
     public Integer progress;
+    public Integer retryCount;
     public String originalAudioUrl;
     public String processedAudioUrl;
     public Instant createdAt;
@@ -92,6 +95,13 @@ interface TaskRepository extends JpaRepository<Task, Long> {}
 @RequestMapping("/api/tasks")
 @CrossOrigin(origins = "*")
 class TaskController {
+    private static final String TOPIC_INCOMING_PREFIX = "tasks.incoming.";
+    private static final String TOPIC_EVENTS = "tasks.events";
+    private static final String STATUS_PENDING = "PENDING";
+    private static final String STATUS_FAILED = "FAILED";
+    private static final String STATUS_UPLOADING = "UPLOADING";
+    private static final Set<String> SUPPORTED_MODELS = Set.of("whisper", "gan", "denoise");
+
     private final TaskRepository repository;
     private final KafkaTemplate<String, String> kafkaTemplate;
     private final Executor taskExecutor;
@@ -111,6 +121,11 @@ class TaskController {
         this.kafkaTemplate = kafkaTemplate;
         this.taskExecutor = taskExecutor;
         this.objectMapper = objectMapper;
+    }
+
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<String> handleInvalidInput(IllegalArgumentException exception) {
+        return ResponseEntity.badRequest().body(exception.getMessage());
     }
 
     @GetMapping("/{id}")
@@ -149,15 +164,18 @@ class TaskController {
     @PostMapping(value = "/start", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<StartTaskResponse> startTask(@RequestParam("modelName") String modelName,
                                                        @RequestParam("file") MultipartFile file) throws Exception {
+        String normalizedModelName = normalizeModelName(modelName);
+
         // Считываются байты сразу, пока запрос жив
         byte[] fileBytes = file.getBytes();
         String originalFilename = Optional.ofNullable(file.getOriginalFilename()).orElse("audio.wav");
         String contentType = Optional.ofNullable(file.getContentType()).orElse(MediaType.APPLICATION_OCTET_STREAM_VALUE);
 
         Task task = new Task();
-        task.modelName = modelName;
-        task.status = "UPLOADING";
+        task.modelName = normalizedModelName;
+        task.status = STATUS_UPLOADING;
         task.progress = 0;
+        task.retryCount = 0;
         task.changesMetadata = "[]";
         task.correlationId = UUID.randomUUID().toString();
         final Task savedTask = repository.save(task);
@@ -169,34 +187,56 @@ class TaskController {
 
                 updateTask(savedTask.id, taskToUpdate -> {
                     taskToUpdate.originalAudioUrl = publicStorageUrl;
-                    taskToUpdate.status = "PENDING";
+                    taskToUpdate.status = STATUS_PENDING;
                     taskToUpdate.progress = 20;
                 });
 
-                sendKafkaEvent("ai-tasks", new TaskEvent(
+                sendKafkaEvent(incomingTopicForModel(normalizedModelName), new TaskEvent(
                         "TASK_CREATED",
                         savedTask.id,
-                        modelName,
+                    normalizedModelName,
                         savedTask.correlationId,
                         20,
-                        "PENDING"
+                    STATUS_PENDING,
+                    savedTask.retryCount
+                ));
+
+                sendKafkaEvent(TOPIC_EVENTS, new TaskEvent(
+                        "TASK_PROGRESS",
+                        savedTask.id,
+                        normalizedModelName,
+                        savedTask.correlationId,
+                        20,
+                    STATUS_PENDING,
+                    savedTask.retryCount
                 ));
 
             } catch (Exception e) {
                 e.printStackTrace(); 
                 updateTask(savedTask.id, taskToUpdate -> {
-                    taskToUpdate.status = "FAILED";
+                    taskToUpdate.status = STATUS_FAILED;
                     taskToUpdate.progress = 100;
                 });
+
+                sendKafkaEvent(TOPIC_EVENTS, new TaskEvent(
+                        "TASK_PROGRESS",
+                        savedTask.id,
+                        normalizedModelName,
+                        savedTask.correlationId,
+                        100,
+                    STATUS_FAILED,
+                    savedTask.retryCount
+                ));
             }
         }, taskExecutor);
 
         return ResponseEntity.accepted().body(new StartTaskResponse(
                 savedTask.id,
                 savedTask.correlationId,
-                modelName,
-                "UPLOADING",
+                normalizedModelName,
+                STATUS_UPLOADING,
                 0,
+                savedTask.retryCount,
                 "Task started with ID: " + savedTask.id + ". Audio is uploading in background."
         ));
     }
@@ -210,16 +250,17 @@ class TaskController {
         String contentType = Optional.ofNullable(file.getContentType()).orElse(MediaType.APPLICATION_OCTET_STREAM_VALUE);
 
         String publicStorageUrl = uploadToSupabase(fileBytes, originalFilename, contentType);
-        String[] enabledModels = models.split(",");
+        List<String> enabledModels = parseModelList(models);
         List<StartTaskResponse> createdTasks = new ArrayList<>();
 
         for (int index = 0; index < count; index++) {
-            String modelName = enabledModels[ThreadLocalRandom.current().nextInt(enabledModels.length)].trim();
+            String modelName = enabledModels.get(ThreadLocalRandom.current().nextInt(enabledModels.size()));
 
             Task task = new Task();
             task.modelName = modelName;
-            task.status = "PENDING";
+            task.status = STATUS_PENDING;
             task.progress = 20;
+            task.retryCount = 0;
             task.originalAudioUrl = publicStorageUrl;
             task.changesMetadata = "[]";
             task.correlationId = UUID.randomUUID().toString();
@@ -231,27 +272,127 @@ class TaskController {
                     modelName,
                     savedTask.status,
                     savedTask.progress,
+                        savedTask.retryCount,
                     "Batch task " + savedTask.id + " queued."
             ));
 
-            sendKafkaEvent("ai-tasks", new TaskEvent(
+                sendKafkaEvent(incomingTopicForModel(modelName), new TaskEvent(
                     "TASK_CREATED",
                     savedTask.id,
                     modelName,
                     savedTask.correlationId,
                     20,
-                    "PENDING"
+                        STATUS_PENDING,
+                        savedTask.retryCount
+                ));
+
+                sendKafkaEvent(TOPIC_EVENTS, new TaskEvent(
+                    "TASK_PROGRESS",
+                    savedTask.id,
+                    modelName,
+                    savedTask.correlationId,
+                    20,
+                        STATUS_PENDING,
+                        savedTask.retryCount
             ));
         }
 
         return ResponseEntity.accepted().body(new BatchStartResponse(count, publicStorageUrl, createdTasks));
     }
 
+                @PostMapping("/{id}/redrive")
+                public ResponseEntity<StartTaskResponse> redriveTask(@PathVariable Long id) {
+                Task task = repository.findById(id)
+                    .orElseThrow(() -> new IllegalStateException("Task not found: " + id));
+
+                if (!STATUS_FAILED.equals(task.status)) {
+                    return ResponseEntity.badRequest().body(new StartTaskResponse(
+                        task.id,
+                        task.correlationId,
+                        task.modelName,
+                        task.status,
+                        task.progress == null ? 0 : task.progress,
+                        task.retryCount == null ? 0 : task.retryCount,
+                        "Re-drive is allowed only for FAILED tasks."
+                    ));
+                }
+
+                Task updatedTask = updateTask(id, taskToUpdate -> {
+                    int nextRetry = (taskToUpdate.retryCount == null ? 0 : taskToUpdate.retryCount) + 1;
+                    taskToUpdate.retryCount = nextRetry;
+                    taskToUpdate.status = STATUS_PENDING;
+                    taskToUpdate.progress = 20;
+                    taskToUpdate.processedAudioUrl = null;
+                    taskToUpdate.changesMetadata = "[]";
+                });
+
+                sendKafkaEvent(incomingTopicForModel(updatedTask.modelName), new TaskEvent(
+                    "TASK_REDRIVE",
+                    updatedTask.id,
+                    updatedTask.modelName,
+                    updatedTask.correlationId,
+                    updatedTask.progress,
+                    updatedTask.status,
+                    updatedTask.retryCount
+                ));
+
+                sendKafkaEvent(TOPIC_EVENTS, new TaskEvent(
+                    "TASK_PROGRESS",
+                    updatedTask.id,
+                    updatedTask.modelName,
+                    updatedTask.correlationId,
+                    updatedTask.progress,
+                    updatedTask.status,
+                    updatedTask.retryCount
+                ));
+
+                return ResponseEntity.accepted().body(new StartTaskResponse(
+                    updatedTask.id,
+                    updatedTask.correlationId,
+                    updatedTask.modelName,
+                    updatedTask.status,
+                    updatedTask.progress,
+                    updatedTask.retryCount,
+                    "Task " + updatedTask.id + " sent for re-drive."
+                ));
+                }
+
     private Task updateTask(Long taskId, Consumer<Task> updater) {
         Task task = repository.findById(taskId)
                 .orElseThrow(() -> new IllegalStateException("Task not found: " + taskId));
         updater.accept(task);
         return repository.save(task);
+    }
+
+    private String normalizeModelName(String rawModelName) {
+        String normalized = Optional.ofNullable(rawModelName)
+                .map(value -> value.trim().toLowerCase(Locale.ROOT))
+                .orElse("");
+
+        if (!SUPPORTED_MODELS.contains(normalized)) {
+            throw new IllegalArgumentException("Unsupported modelName: " + rawModelName + ". Allowed: whisper, gan, denoise");
+        }
+
+        return normalized;
+    }
+
+    private List<String> parseModelList(String models) {
+        List<String> parsedModels = Optional.ofNullable(models)
+                .stream()
+                .flatMap(value -> List.of(value.split(",")).stream())
+                .map(this::normalizeModelName)
+                .distinct()
+                .toList();
+
+        if (parsedModels.isEmpty()) {
+            throw new IllegalArgumentException("At least one model is required in 'models' parameter");
+        }
+
+        return parsedModels;
+    }
+
+    private String incomingTopicForModel(String modelName) {
+        return TOPIC_INCOMING_PREFIX + normalizeModelName(modelName);
     }
 
     private String uploadToSupabase(byte[] fileBytes, String originalFilename, String contentType) throws Exception {
@@ -284,6 +425,7 @@ class TaskController {
                 task.modelName,
                 task.status,
                 task.progress == null ? 0 : task.progress,
+                task.retryCount == null ? 0 : task.retryCount,
                 task.originalAudioUrl,
                 task.processedAudioUrl,
                 task.changesMetadata,
@@ -293,14 +435,16 @@ class TaskController {
     }
 }
 
-record StartTaskResponse(Long taskId, String correlationId, String modelName, String status, Integer progress, String message) {}
+record StartTaskResponse(Long taskId, String correlationId, String modelName, String status,
+                         Integer progress, Integer retryCount, String message) {}
 
 record BatchStartResponse(Integer count, String originalAudioUrl, List<StartTaskResponse> tasks) {}
 
 record TaskSnapshotResponse(List<TaskStatusResponse> tasks) {}
 
-record TaskEvent(String eventType, Long taskId, String modelName, String correlationId, Integer progress, String status) {}
+record TaskEvent(String eventType, Long taskId, String modelName, String correlationId,
+                 Integer progress, String status, Integer retryCount) {}
 
-record TaskStatusResponse(Long id, String correlationId, String modelName, String status, Integer progress,
+record TaskStatusResponse(Long id, String correlationId, String modelName, String status, Integer progress, Integer retryCount,
                           String originalAudioUrl, String processedAudioUrl, String changesMetadata,
                           Instant createdAt, Instant updatedAt) {}

@@ -1,0 +1,16 @@
+target/
+.git/
+.gitignore
+.vscode/
+.idea/
+.metals/
+.mvn/wrapper/maven-wrapper.jar
+*.log
+*.tmp
+*.wav
+*.flac
+*.mp3
+src/test/
+Dockerfile*
+README*
+HELP.md
